@@ -1,0 +1,2 @@
+# Wordpress
+Bug Reporting
