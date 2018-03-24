@@ -1,0 +1,24 @@
+Versions:
+WordPress: 4.9.4
+WordPress MS: No
+PHP: 5.6.30
+WP Mail SMTP: 1.2.5
+
+Params:
+Mailer: smtp
+Constants: No
+ErrorInfo: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Host: smtpout.asia.secureserver.net
+Port: 465
+SMTPSecure: ssl
+SMTPAutoTLS: bool(true)
+SMTPAuth: bool(true)
+
+Server:
+OpenSSL: Yes
+SMTP Debug:
+2018-03-24 20:42:43	Connection: opening to ssl://smtpout.asia.secureserver.net:465, timeout=300, options=array (
+)
+2018-03-24 20:42:44	Connection: Failed to connect to server. Error number 2. "Error notice: stream_socket_client(): unable to connect to ssl://smtpout.asia.secureserver.net:465 (Connection refused)
+2018-03-24 20:42:44	SMTP ERROR: Failed to connect to server: Connection refused (111)
+2018-03-24 20:42:44	SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
